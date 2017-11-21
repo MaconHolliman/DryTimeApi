@@ -1,0 +1,23 @@
+{
+  "name": "Doing",
+  "plural": "Doings",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "VID": {
+      "type": "string",
+      "required": true
+    },
+    "SID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Assigned_to",
+  "plural": "Assigned_tos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "SSN": {
+      "type": "string",
+      "required": true
+    },
+    "SID": {
+      "type": "string",
+      "required": true
+    },
+    "IDN": {
+      "type": "string",
+      "required": true
+    },
+    "VID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Warehouse",
+  "plural": "Warehouses",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "WID": {
+      "type": "string",
+      "required": true
+    },
+    "Capacity": {
+      "type": "number",
+      "required": true
+    },
+    "Loc": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

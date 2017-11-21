@@ -1,0 +1,23 @@
+{
+  "name": "Items_store",
+  "plural": "Items_stored",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDN": {
+      "type": "string",
+      "required": true
+    },
+    "WID": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

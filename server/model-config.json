@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Note": {
+    "dataSource": "db"
+  },
+  "Employee": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Warehouse": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Vehicle": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Item": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Job": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Items_store": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Take_from": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Doing": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Assigned_to": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Accesse": {
+    "dataSource": "db",
+    "public": true
+  }
+}
