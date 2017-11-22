@@ -8,7 +8,7 @@
   },
   "properties": {
     "ssn": {
-      "type": "string",
+      "type": "number",
       "id": true,
       "required": true
     },
@@ -21,8 +21,10 @@
       "required": true
     },
     "Office_num": {
-      "type": "number",
-      "required": true
+      "type": "number"
+    },
+    "Password": {
+      "type": "string"
     }
   },
   "validations": [],
