@@ -8,11 +8,11 @@
   },
   "properties": {
     "VID": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "SID": {
-      "type": "string",
+      "type": "number",
       "required": true
     }
   },

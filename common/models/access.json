@@ -12,15 +12,15 @@
       "required": true
     },
     "SID": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "IDN": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "VID": {
-      "type": "string",
+      "type": "number",
       "required": true
     }
   },
