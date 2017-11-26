@@ -8,12 +8,15 @@
   },
   "properties": {
     "IDN": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "WID": {
-      "type": "string",
+      "type": "number",
       "required": true
+    },
+    "Stock": {
+      "type": "number"
     }
   },
   "validations": [],

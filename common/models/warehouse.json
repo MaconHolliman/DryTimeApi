@@ -8,7 +8,8 @@
   },
   "properties": {
     "WID": {
-      "type": "string",
+      "type": "number",
+      "id": true,
       "required": true
     },
     "Capacity": {

@@ -1,19 +1,27 @@
 {
-  "name": "Take_from",
-  "plural": "Take_froms",
+  "name": "Items_In_Use",
+  "plural": "Items_In_Use",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
+    "IDN": {
+      "type": "number",
+      "required": true
+    },
     "WID": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "VID": {
-      "type": "string",
+      "type": "number",
       "required": true
+    },
+    "Count": {
+      "type": "number",
+      "required": false
     }
   },
   "validations": [],
