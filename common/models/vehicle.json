@@ -12,7 +12,7 @@
       "required": true
     },
     "Capacity": {
-      "type": "string"
+      "type": "number"
     },
     "Model": {
       "type": "string",
